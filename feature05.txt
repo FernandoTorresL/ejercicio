@@ -1,0 +1,30 @@
+... /ejercicio (master)
+$ git branch development03
+
+... /ejercicio (master)
+$ git checkout development03
+Switched to branch 'development03'
+
+... /ejercicio (development03)
+$ git push origin development03
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:FernandoTorresL/ejercicio.git
+ * [new branch]      development03 -> development03
+
+... /ejercicio (development03)
+ $ git branch feature05
+
+... /ejercicio (development03)
+ $ git checkout feature05
+ Switched to branch 'feature05'
+
+... /ejercicio (feature05)
+ $ git push origin feature05
+ Total 0 (delta 0), reused 0 (delta 0)
+ To git@github.com:FernandoTorresL/ejercicio.git
+  * [new branch]      feature05 -> feature05
+
+... /ejercicio (feature05)
+  $ touch feature05.txt
+
+  
